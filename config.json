@@ -1,0 +1,35 @@
+{
+    
+    "monitoring": {
+        "window_size": 300,
+        "alert_threshold": 0.1,
+        "check_interval": 60
+    },
+    "gui": {
+        "window_width": 1200,
+        "window_height": 800,
+        "theme": "default",
+        "update_interval": 5,
+        "chart_update_interval": 10
+    },
+    "capture": {
+        "interface": null,
+        "filter": "ip",
+        "max_packets": 10000
+    },
+    "security": {
+        "auto_response": true,
+        "isolation_threshold": 0.5,
+        "log_file": "security_events.log"
+    },
+    "visualization": {
+        "update_interval": 30,
+        "max_display_devices": 10,
+        "chart_colors": ["#3498db", "#2ecc71", "#e74c3c", "#f39c12", "#9b59b6"]
+    },
+    "export": {
+        "auto_export": false,
+        "export_interval": 3600,
+        "export_format": "json"
+    }
+}

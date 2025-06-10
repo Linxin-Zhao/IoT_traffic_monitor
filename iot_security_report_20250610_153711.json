@@ -1,0 +1,52 @@
+{
+  "timestamp": "2025-06-10T15:37:11.404829",
+  "system_status": {
+    "running": true,
+    "monitored_devices": 5,
+    "trained_models": 0,
+    "alert_threshold": 0.4,
+    "window_size": 300
+  },
+  "device_statistics": {
+    "device_001": {
+      "total_records": 1,
+      "avg_bytes_sent": 1396.4609497149988,
+      "avg_bytes_received": 1161.0047547046577,
+      "max_connections": 3,
+      "last_seen": "2025-06-10T15:37:00.546098"
+    },
+    "device_002": {
+      "total_records": 1,
+      "avg_bytes_sent": 810.9598621029472,
+      "avg_bytes_received": 1073.6388811341885,
+      "max_connections": 6,
+      "last_seen": "2025-06-10T15:37:00.546098"
+    },
+    "device_003": {
+      "total_records": 1,
+      "avg_bytes_sent": 851.875711357224,
+      "avg_bytes_received": 817.8229053488378,
+      "max_connections": 8,
+      "last_seen": "2025-06-10T15:37:00.546098"
+    },
+    "sensor_001": {
+      "total_records": 1,
+      "avg_bytes_sent": 1036.6649346214251,
+      "avg_bytes_received": 893.9642075085748,
+      "max_connections": 5,
+      "last_seen": "2025-06-10T15:37:00.546098"
+    },
+    "camera_001": {
+      "total_records": 1,
+      "avg_bytes_sent": 1090.9733806803001,
+      "avg_bytes_received": 1099.3614879438837,
+      "max_connections": 6,
+      "last_seen": "2025-06-10T15:37:00.546098"
+    }
+  },
+  "alert_summary": {
+    "total_alerts": 0,
+    "high_severity": 0,
+    "medium_severity": 0
+  }
+}
